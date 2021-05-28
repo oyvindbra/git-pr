@@ -45,6 +45,9 @@ class TestFunctions(unittest.TestCase):
   def test_pr(self):
     # TODO: assert pr function is working properly
     pr()
+  def test_test(self):
+    # TODO: assert pr function is working properly
+    test()
 
 def checkdeps(apps = ["gh version", "az version"]):
   for app in apps:
@@ -70,6 +73,9 @@ def initlogging(enabledebug=False):
   logger.addHandler(loghandler)
 
 def pr():
+  None
+
+def test():
   None
 
 if __name__ == "__main__":
