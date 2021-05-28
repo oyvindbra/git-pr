@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Copyright 2021 Øyvind Bratne
 
 # This file is part of Git-pr
@@ -14,7 +17,6 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with Git-pr.  If not, see <https://www.gnu.org/licenses/>.
-
 
 import argparse
 import logging
